@@ -1,0 +1,7 @@
+C:\POS2006\PosPrintServer\bin\Release\PosPrintServer.dll
+C:\POS2006\PosPrintServer\bin\Release\PosPrintServer.pdb
+C:\POS2006\PosPrintServer\bin\Release\BOPr.dll
+C:\POS2006\PosPrintServer\bin\Release\BOPr.xml
+C:\POS2006\PosPrintServer\obj\Release\PosPrintServer.csprojResolveAssemblyReference.cache
+C:\POS2006\PosPrintServer\obj\Release\PosPrintServer.dll
+C:\POS2006\PosPrintServer\obj\Release\PosPrintServer.pdb

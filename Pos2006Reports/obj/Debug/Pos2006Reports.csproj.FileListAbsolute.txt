@@ -1,0 +1,13 @@
+C:\POS2006\Pos2006Reports\bin\Debug\Pos2006Reports.exe.config
+C:\POS2006\Pos2006Reports\bin\Debug\Pos2006Reports.exe
+C:\POS2006\Pos2006Reports\bin\Debug\Pos2006Reports.pdb
+C:\POS2006\Pos2006Reports\obj\Debug\MainWindow.baml
+C:\POS2006\Pos2006Reports\obj\Debug\MainWindow.g.cs
+C:\POS2006\Pos2006Reports\obj\Debug\App.g.cs
+C:\POS2006\Pos2006Reports\obj\Debug\Pos2006Reports_MarkupCompile.cache
+C:\POS2006\Pos2006Reports\obj\Debug\Pos2006Reports.g.resources
+C:\POS2006\Pos2006Reports\obj\Debug\Pos2006Reports.Properties.Resources.resources
+C:\POS2006\Pos2006Reports\obj\Debug\Pos2006Reports.csproj.GenerateResource.Cache
+C:\POS2006\Pos2006Reports\obj\Debug\Pos2006Reports.exe
+C:\POS2006\Pos2006Reports\obj\Debug\Pos2006Reports.pdb
+C:\POS2006\Pos2006Reports\obj\Debug\Pos2006Reports.csprojResolveAssemblyReference.cache

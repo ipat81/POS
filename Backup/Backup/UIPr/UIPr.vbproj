@@ -1,0 +1,448 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{A3082464-8CA5-4D10-B4D9-12F8F6AC5AC1}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "UIPr"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "UIPr"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "C1.Win.C1FlexGrid"
+                    AssemblyName = "C1.Win.C1FlexGrid"
+                    HintPath = "D:\Program Files\COne Studio.NET\bin\C1.Win.C1FlexGrid.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Common"
+                    AssemblyName = "C1.Common"
+                    HintPath = "D:\Program Files\COne Studio.NET\bin\C1.Common.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.C1PrintDocument"
+                    AssemblyName = "C1.C1PrintDocument"
+                    HintPath = "..\..\..\Program Files\ComponentOne Studio.NET\bin\C1.C1PrintDocument.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1PrintPreview"
+                    AssemblyName = "C1.Win.C1PrintPreview"
+                    HintPath = "..\..\..\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1PrintPreview.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1FlexGrid.Classic"
+                    AssemblyName = "C1.Win.C1FlexGrid.Classic"
+                    HintPath = "..\..\..\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1FlexGrid.Classic.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.PrintUtil"
+                    AssemblyName = "C1.PrintUtil"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.PrintUtil.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1Command"
+                    AssemblyName = "C1.Win.C1Command"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1Command.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1Spell"
+                    AssemblyName = "C1.Win.C1Spell"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1Spell.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1Thesaurus"
+                    AssemblyName = "C1.Win.C1Thesaurus"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1Thesaurus.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1CommandConverter"
+                    AssemblyName = "C1CommandConverter"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1CommandConverter.dll"
+                />
+                <Reference
+                    Name = "C1.Win.C1Chart"
+                    AssemblyName = "C1.Win.C1Chart"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1Chart.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1Chart3D"
+                    AssemblyName = "C1.Win.C1Chart3D"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1Chart3D.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1List"
+                    AssemblyName = "C1.Win.C1List"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1List.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1Report"
+                    AssemblyName = "C1.Win.C1Report"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1Report.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "c1.win.c1sizer"
+                    AssemblyName = "C1.Win.C1Sizer"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\c1.win.c1sizer.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1TrueDBGrid"
+                    AssemblyName = "C1.Win.C1TrueDBGrid"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1TrueDBGrid.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.C1Zip"
+                    AssemblyName = "C1.C1Zip"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.C1Zip.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Data.Express"
+                    AssemblyName = "C1.Data.Express"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Data.Express.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Data"
+                    AssemblyName = "C1.Data"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Data.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Data.Design"
+                    AssemblyName = "C1.Data.Design"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Data.Design.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "C1.Win.C1Input"
+                    AssemblyName = "C1.Win.C1Input"
+                    HintPath = "C:\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1Input.dll"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "StarTSP100OPOSCashDrawerServiceObjectLib"
+                    Guid = "{3F248F00-D2E2-44C6-A92F-6017D0CB3DE3}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "StarTSP100OPOSPOSPrinterServiceObjectLib"
+                    Guid = "{FE77F510-ACEF-4D78-AFEC-DD2590B4C4EF}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "StarVBKit"
+                    Guid = "{BBFC4FEB-A222-40A4-B637-AF6768095753}"
+                    VersionMajor = "4"
+                    VersionMinor = "3"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxStarVBKit"
+                    Guid = "{BBFC4FEB-A222-40A4-B637-AF6768095753}"
+                    VersionMajor = "4"
+                    VersionMinor = "3"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "SMJOPOSPOSPrinterControlObjectLib"
+                    Guid = "{C3EC6C43-B03D-11D1-89AC-00C04FCAF6E3}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxSMJOPOSPOSPrinterControlObjectLib"
+                    Guid = "{C3EC6C43-B03D-11D1-89AC-00C04FCAF6E3}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "BOPr"
+                    Project = "{73BDD229-162C-461E-B16E-3BC93EA01AF7}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "fixPayroll.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmCashRegisterCount.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmCashRegisterCount.resx"
+                    DependentUpon = "frmCashRegisterCount.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmClock.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmClock.resx"
+                    DependentUpon = "frmClock.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmEditCRTxn.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmEditCRTxn.resx"
+                    DependentUpon = "frmEditCRTxn.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmEditPaymentPr.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmEditPaymentPr.resx"
+                    DependentUpon = "frmEditPaymentPr.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmEditRetailOrder.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmEditRetailOrder.resx"
+                    DependentUpon = "frmEditRetailOrder.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmFGReportViewer.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmFGReportViewer.resx"
+                    DependentUpon = "frmFGReportViewer.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmPoleDisplay.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmPoleDisplay.resx"
+                    DependentUpon = "frmPoleDisplay.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmPOSDesktop.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmPOSDesktop.resx"
+                    DependentUpon = "frmPOSDesktop.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmPOSOverride.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmPOSOverride.resx"
+                    DependentUpon = "frmPOSOverride.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmReconcileCashRegister.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmReconcileCashRegister.resx"
+                    DependentUpon = "frmReconcileCashRegister.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "modPOSStart.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "POSPrint.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "rptFutureOrderList.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "rptLateTables.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "rptOverridesList.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "rptProductPerformance.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "rptQBPayrollReport.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "rptQBRevenueReport.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "rptQBSalesReport.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "rptSalesSummary.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "rptWaiterPerformance.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

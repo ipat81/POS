@@ -1,0 +1,14 @@
+C:\POS2006\PosPrintServer\bin\Debug\PosPrintServer.dll
+C:\POS2006\PosPrintServer\bin\Debug\PosPrintServer.pdb
+C:\POS2006\PosPrintServer\bin\Debug\BOPr.dll
+C:\POS2006\PosPrintServer\bin\Debug\RestSharp.dll
+C:\POS2006\PosPrintServer\bin\Debug\Twilio.Api.dll
+C:\POS2006\PosPrintServer\bin\Debug\BOPr.pdb
+C:\POS2006\PosPrintServer\bin\Debug\BOPr.xml
+C:\POS2006\PosPrintServer\bin\Debug\RestSharp.pdb
+C:\POS2006\PosPrintServer\bin\Debug\RestSharp.xml
+C:\POS2006\PosPrintServer\bin\Debug\Twilio.Api.pdb
+C:\POS2006\PosPrintServer\bin\Debug\Twilio.Api.xml
+C:\POS2006\PosPrintServer\obj\Debug\PosPrintServer.csprojResolveAssemblyReference.cache
+C:\POS2006\PosPrintServer\obj\Debug\PosPrintServer.dll
+C:\POS2006\PosPrintServer\obj\Debug\PosPrintServer.pdb

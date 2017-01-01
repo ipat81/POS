@@ -1,0 +1,84 @@
+﻿<Window x:Class="Pos2006Reports.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:igDP="http://infragistics.com/DataPresenter"
+  xmlns:igEditors="http://infragistics.com/Editors"
+xmlns:sys="clr-namespace:System;assembly=mscorlib"
+xmlns:igExcelExporter="http://infragistics.com/ExcelExporter"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"> </RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0"  >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="60"></ColumnDefinition>
+                <ColumnDefinition Width="30"></ColumnDefinition>
+                <ColumnDefinition Width="10"></ColumnDefinition>
+                <ColumnDefinition Width="110"></ColumnDefinition>
+                <ColumnDefinition Width="10"></ColumnDefinition>
+                <ColumnDefinition Width="30"></ColumnDefinition>
+                <ColumnDefinition Width="10"></ColumnDefinition>
+                <ColumnDefinition Width="110"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0"  VerticalAlignment="Center">Pos2006 Reports</TextBlock>
+            <TextBlock Grid.Column="2"  VerticalAlignment="Center" >From</TextBlock>
+            <igEditors:XamDateTimeEditor Grid.Column="4"
+                x:Name="periodStart"
+                AutoFillDate="MonthAndYear"
+                DropDownButtonDisplayMode="Always"
+                                                              Height="25"
+                                                             VerticalAlignment="Center"
+                                                             MaxWidth="100" 
+                                   ValueChanged="periodStart_ValueChanged"
+                Mask="{}{date}" />
+            <TextBlock Grid.Column="6"   VerticalAlignment="Center">To</TextBlock>
+            <igEditors:XamDateTimeEditor Grid.Column="8"
+                x:Name="periodEnd"
+                AutoFillDate="MonthAndYear"
+                DropDownButtonDisplayMode="Always"
+                                                              Height="25"
+                                                             VerticalAlignment="Center"
+                                                             MaxWidth="100" 
+                                   ValueChanged="periodEnd_ValueChanged"
+                Mask="{}{date}" />
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="7*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ListBox Grid.Column="0" Name="listbox" ItemsSource="{Binding Reports}"></ListBox>
+            <igDP:XamDataGrid x:Name="dg1" Grid.Column="1"  DataSource="{Binding SaleReportData}" 
+                              FieldLayoutInitialized="dg1_FieldLayoutInitialized" Theme="IGTheme" AutoFit="True">
+
+                            <igDP:XamDataGrid.FieldLayoutSettings>
+                    <igDP:FieldLayoutSettings AutoGenerateFields="true" AllowAddNew="False" AllowDelete="False" AllowFieldMoving="Yes"
+                                              HighlightAlternateRecords="True" 
+                                              HeaderPrefixAreaDisplayMode="FieldChooserButton"/>
+                </igDP:XamDataGrid.FieldLayoutSettings>
+                <igDP:XamDataGrid.FieldSettings>
+                    <igDP:FieldSettings 
+            AllowSummaries="True" AllowEdit="False" AutoSizeOptions="Label" Width="Auto"
+            SummaryUIType="MultiSelect"  
+            SummaryDisplayArea="Bottom" />
+                </igDP:XamDataGrid.FieldSettings>
+                    <igDP:XamDataGrid.Resources>
+                    <Style TargetType="{x:Type igDP:SummaryResultPresenter}">
+                        <Setter Property="HorizontalAlignment" Value="Right" />
+                    </Style>
+                </igDP:XamDataGrid.Resources>
+            </igDP:XamDataGrid> 
+        </Grid>
+        <!--SummaryDisplayArea="InGroupByRecords, BottomFixed" />-->
+
+        <DockPanel Grid.Row="2">
+            <Button Name="export"  Content="Export" DockPanel.Dock="Right" Width="60" Height="30" Click="exportButton_Click" Margin="20" />
+            <Button Name="print"  Content="Print" DockPanel.Dock="Right"  Width="50" Height="30"  Click="printButton_Click" Margin="20" />
+            <Button Name="run"  Content="Run" DockPanel.Dock="Right"  Width="50" Height="30" Click="runButton_Click" />
+        </DockPanel>
+    </Grid>
+</Window>

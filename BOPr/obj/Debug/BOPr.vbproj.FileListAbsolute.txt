@@ -1,0 +1,13 @@
+Z:\POS2006\BOPr\bin\BOPr.dll
+Z:\POS2006\BOPr\bin\BOPr.pdb
+Z:\POS2006\BOPr\bin\BOPr.xml
+Z:\POS2006\BOPr\obj\Debug\ResolveAssemblyReference.cache
+Z:\POS2006\BOPr\obj\Debug\BOPr.dll
+Z:\POS2006\BOPr\obj\Debug\BOPr.xml
+Z:\POS2006\BOPr\obj\Debug\BOPr.pdb
+C:\POS2006\BOPr\bin\BOPr.dll
+C:\POS2006\BOPr\bin\BOPr.pdb
+C:\POS2006\BOPr\bin\BOPr.xml
+C:\POS2006\BOPr\obj\Debug\BOPr.dll
+C:\POS2006\BOPr\obj\Debug\BOPr.xml
+C:\POS2006\BOPr\obj\Debug\BOPr.pdb

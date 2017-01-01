@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{720A092D-15C7-4F00-A818-5E73568834E5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WpfApplication1</RootNamespace>
+    <AssemblyName>WpfApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Audit.cs" />
+    <Compile Include="Models\AuditChangeSet.cs" />
+    <Compile Include="Models\AuditDetail.cs" />
+    <Compile Include="Models\CashRegister.cs" />
+    <Compile Include="Models\CRItem.cs" />
+    <Compile Include="Models\CRItemCount.cs" />
+    <Compile Include="Models\CRTxn.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\CustomerContact.cs" />
+    <Compile Include="Models\DTable.cs" />
+    <Compile Include="Models\dtproperty.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EmployeeContact.cs" />
+    <Compile Include="Models\EmployeePayInfo.cs" />
+    <Compile Include="Models\Escalation.cs" />
+    <Compile Include="Models\GCTxn.cs" />
+    <Compile Include="Models\GiftCard.cs" />
+    <Compile Include="Models\Mapping\AuditChangeSetMap.cs" />
+    <Compile Include="Models\Mapping\AuditDetailMap.cs" />
+    <Compile Include="Models\Mapping\AuditMap.cs" />
+    <Compile Include="Models\Mapping\CashRegisterMap.cs" />
+    <Compile Include="Models\Mapping\CRItemCountMap.cs" />
+    <Compile Include="Models\Mapping\CRItemMap.cs" />
+    <Compile Include="Models\Mapping\CRTxnMap.cs" />
+    <Compile Include="Models\Mapping\CustomerContactMap.cs" />
+    <Compile Include="Models\Mapping\CustomerMap.cs" />
+    <Compile Include="Models\Mapping\DTableMap.cs" />
+    <Compile Include="Models\Mapping\dtpropertyMap.cs" />
+    <Compile Include="Models\Mapping\EmployeeContactMap.cs" />
+    <Compile Include="Models\Mapping\EmployeeMap.cs" />
+    <Compile Include="Models\Mapping\EmployeePayInfoMap.cs" />
+    <Compile Include="Models\Mapping\EscalationMap.cs" />
+    <Compile Include="Models\Mapping\GCTxnMap.cs" />
+    <Compile Include="Models\Mapping\GiftCardMap.cs" />
+    <Compile Include="Models\Mapping\MenuItemMap.cs" />
+    <Compile Include="Models\Mapping\MenuMap.cs" />
+    <Compile Include="Models\Mapping\ModItemMap.cs" />
+    <Compile Include="Models\Mapping\ModsAllowedMap.cs" />
+    <Compile Include="Models\Mapping\OrderItemMap.cs" />
+    <Compile Include="Models\Mapping\OrderItemModMap.cs" />
+    <Compile Include="Models\Mapping\OrderItemViewMap.cs" />
+    <Compile Include="Models\Mapping\OrderMap.cs" />
+    <Compile Include="Models\Mapping\OrderViewMap.cs" />
+    <Compile Include="Models\Mapping\OverrideMap.cs" />
+    <Compile Include="Models\Mapping\PaymentMap.cs" />
+    <Compile Include="Models\Mapping\PaymentMethodMap.cs" />
+    <Compile Include="Models\Mapping\PayPeriodMap.cs" />
+    <Compile Include="Models\Mapping\PayRollAdjustMap.cs" />
+    <Compile Include="Models\Mapping\PayrollMap.cs" />
+    <Compile Include="Models\Mapping\PortionGroupMap.cs" />
+    <Compile Include="Models\Mapping\PortionMap.cs" />
+    <Compile Include="Models\Mapping\PortionMenuMap.cs" />
+    <Compile Include="Models\Mapping\POSFunctionMap.cs" />
+    <Compile Include="Models\Mapping\PosMenuGroupMap.cs" />
+    <Compile Include="Models\Mapping\PosMenuItemMap.cs" />
+    <Compile Include="Models\Mapping\PosMenuItemUIViewMap.cs" />
+    <Compile Include="Models\Mapping\PosMenuTabMap.cs" />
+    <Compile Include="Models\Mapping\PosUIViewMap.cs" />
+    <Compile Include="Models\Mapping\ProductDefMap.cs" />
+    <Compile Include="Models\Mapping\ProductMap.cs" />
+    <Compile Include="Models\Mapping\PromoCouponIssuedMap.cs" />
+    <Compile Include="Models\Mapping\PromoCouponRedeemedMap.cs" />
+    <Compile Include="Models\Mapping\PromoItemMap.cs" />
+    <Compile Include="Models\Mapping\PromoScheduleMap.cs" />
+    <Compile Include="Models\Mapping\RoleMap.cs" />
+    <Compile Include="Models\Mapping\SDMap.cs" />
+    <Compile Include="Models\Mapping\SDSessionMap.cs" />
+    <Compile Include="Models\Mapping\SEMap.cs" />
+    <Compile Include="Models\Mapping\ServerTipAllocationMap.cs" />
+    <Compile Include="Models\Mapping\SessionMap.cs" />
+    <Compile Include="Models\Mapping\SETaskMap.cs" />
+    <Compile Include="Models\Mapping\SubscriberMap.cs" />
+    <Compile Include="Models\Mapping\SubscriberViewMap.cs" />
+    <Compile Include="Models\Mapping\SubscriberViewPosMenuTabGroupMap.cs" />
+    <Compile Include="Models\Mapping\SubscriberViewPosMenuTabGroupMenuItemMap.cs" />
+    <Compile Include="Models\Mapping\SubscriberViewPosMenuTabMap.cs" />
+    <Compile Include="Models\Mapping\sysdiagramMap.cs" />
+    <Compile Include="Models\Mapping\TableSeatingMap.cs" />
+    <Compile Include="Models\Mapping\TaskMap.cs" />
+    <Compile Include="Models\Mapping\TimeCardMap.cs" />
+    <Compile Include="Models\Menu.cs" />
+    <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\ModItem.cs" />
+    <Compile Include="Models\ModsAllowed.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderItem.cs" />
+    <Compile Include="Models\OrderItemMod.cs" />
+    <Compile Include="Models\OrderItemView.cs" />
+    <Compile Include="Models\OrderView.cs" />
+    <Compile Include="Models\Override.cs" />
+    <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\PaymentMethod.cs" />
+    <Compile Include="Models\PayPeriod.cs" />
+    <Compile Include="Models\Payroll.cs" />
+    <Compile Include="Models\PayRollAdjust.cs" />
+    <Compile Include="Models\Portion.cs" />
+    <Compile Include="Models\PortionGroup.cs" />
+    <Compile Include="Models\PortionMenu.cs" />
+    <Compile Include="Models\Pos09Context.cs" />
+    <Compile Include="Models\POSFunction.cs" />
+    <Compile Include="Models\PosMenuGroup.cs" />
+    <Compile Include="Models\PosMenuItem.cs" />
+    <Compile Include="Models\PosMenuItemUIView.cs" />
+    <Compile Include="Models\PosMenuTab.cs" />
+    <Compile Include="Models\PosUIView.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\ProductDef.cs" />
+    <Compile Include="Models\PromoCouponIssued.cs" />
+    <Compile Include="Models\PromoCouponRedeemed.cs" />
+    <Compile Include="Models\PromoItem.cs" />
+    <Compile Include="Models\PromoSchedule.cs" />
+    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\SD.cs" />
+    <Compile Include="Models\SDSession.cs" />
+    <Compile Include="Models\SE.cs" />
+    <Compile Include="Models\ServerTipAllocation.cs" />
+    <Compile Include="Models\Session.cs" />
+    <Compile Include="Models\SETask.cs" />
+    <Compile Include="Models\Subscriber.cs" />
+    <Compile Include="Models\SubscriberView.cs" />
+    <Compile Include="Models\SubscriberViewPosMenuTab.cs" />
+    <Compile Include="Models\SubscriberViewPosMenuTabGroup.cs" />
+    <Compile Include="Models\SubscriberViewPosMenuTabGroupMenuItem.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
+    <Compile Include="Models\TableSeating.cs" />
+    <Compile Include="Models\Task.cs" />
+    <Compile Include="Models\TimeCard.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

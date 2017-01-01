@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A3082464-8CA5-4D10-B4D9-12F8F6AC5AC1}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>UIPr</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>UIPr</RootNamespace>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>UIPr.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>UIPr.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'debug1|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\debug1\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>UIPr.xml</DocumentationFile>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\UIPr.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BOPr\BOPr.vbproj">
+      <Project>{73bdd229-162c-461e-b16e-3bc93ea01af7}</Project>
+      <Name>BOPr</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PosPrintServer\PosPrintServer.csproj">
+      <Project>{DE5EA9E6-D268-4D09-A56B-1FC457D6472F}</Project>
+      <Name>PosPrintServer</Name>
+    </ProjectReference>
+    <Reference Include="C1.C1PrintDocument, Version=1.0.20023.101, Culture=neutral, PublicKeyToken=1a6f4158ebe6d3b8">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.C1PrintDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.C1Zip, Version=1.1.20023.5, Culture=neutral, PublicKeyToken=bc8d9c59cf1b601f">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.C1Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Common, Version=1.0.20031.116, Culture=neutral, PublicKeyToken=e272bb32d11b1948">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Data, Version=1.0.20022.0, Culture=neutral, PublicKeyToken=900b028620cd3a1b">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Data.Design, Version=1.0.20024.0, Culture=neutral, PublicKeyToken=bf19f4b831d5eff2">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Data.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Data.Express, Version=1.0.20022.0, Culture=neutral, PublicKeyToken=253763f1c3e4ceec">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Data.Express.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.PrintUtil, Version=1.0.20023.101, Culture=neutral, PublicKeyToken=b16543415225f099">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.PrintUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart, Version=1.0.20034.13244, Culture=neutral, PublicKeyToken=a22e16972c085838">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Chart3D, Version=1.0.20034.13244, Culture=neutral, PublicKeyToken=a22e16972c085838">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1Chart3D.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Command, Version=1.0.20023.1, Culture=neutral, PublicKeyToken=e808566f358766d8">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1Command.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid, Version=2.1.20031.104, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1FlexGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.Classic, Version=2.1.20031.104, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1FlexGrid.Classic.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input, Version=1.0.20031.0, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1Input.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1List, Version=1.1.20034.27, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1List.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1PrintPreview, Version=1.0.20023.101, Culture=neutral, PublicKeyToken=3af768410ba0a64f">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1PrintPreview.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Report, Version=1.1.20023.28, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1Report.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Sizer, Version=1.1.20032.1, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1Sizer.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Spell, Version=1.2.20023.29, Culture=neutral, PublicKeyToken=f6f2c1ef135ddbd4">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1Spell.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Thesaurus, Version=1.2.20023.29, Culture=neutral, PublicKeyToken=c644e6d97aec9e47">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1Thesaurus.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1TrueDBGrid, Version=1.2.20033.30829, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1.Win.C1TrueDBGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="C1CommandConverter, Version=1.0.20023.2, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\POS2006\UIPr\bin\C1CommandConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="fixPayroll.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="frmCashRegisterCount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditCRTxn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditPaymentPr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditRetailOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFGReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSDesktop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOSOverride.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReconcileCashRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modPOSStart.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rptFutureOrderList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rptLateTables.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rptOverridesList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rptProductPerformance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rptQBPayrollReport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rptQBRevenueReport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rptQBSalesReport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rptSalesSummary.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rptWaiterPerformance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="frmCashRegisterCount.resx">
+      <DependentUpon>frmCashRegisterCount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClock.resx">
+      <DependentUpon>frmClock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditCRTxn.resx">
+      <DependentUpon>frmEditCRTxn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditPaymentPr.resx">
+      <DependentUpon>frmEditPaymentPr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditRetailOrder.resx">
+      <DependentUpon>frmEditRetailOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFGReportViewer.resx">
+      <DependentUpon>frmFGReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSDesktop.resx">
+      <DependentUpon>frmPOSDesktop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOSOverride.resx">
+      <DependentUpon>frmPOSOverride.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReconcileCashRegister.resx">
+      <DependentUpon>frmReconcileCashRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="POS2006">
+</Property><Property Name="Solution File" Value="Z:\POS2006\POS2006.sln">
+</Property><Property Name="User Options File" Value="Z:\POS2006\POS2006.suo">
+</Property><Property Name="Date" Value="Thursday, May 26, 2011">
+</Property><Property Name="Time" Value="13:59 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="POS2006.sln" Description="File successfully backed up as Z:\POS2006\Backup\Backup\POS2006.sln">
+</Event><Event ErrorLevel="0" Project="" Source="POS2006.suo" Description="File successfully backed up as Z:\POS2006\Backup\Backup\POS2006.suo">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\UIPr.vbproj" Description="Project file successfully backed up as Z:\POS2006\Backup\Backup\UIPr\UIPr.vbproj">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\UIPr.vbproj.user" Description="Project user file successfully backed up as Z:\POS2006\Backup\Backup\UIPr\UIPr.vbproj.user">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\AssemblyInfo.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\fixPayroll.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\fixPayroll.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmCashRegisterCount.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmCashRegisterCount.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmClock.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmClock.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmEditCRTxn.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmEditCRTxn.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmEditPaymentPr.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmEditPaymentPr.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmEditRetailOrder.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmEditRetailOrder.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmFGReportViewer.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmFGReportViewer.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmPoleDisplay.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmPoleDisplay.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmPOSDesktop.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmPOSDesktop.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmPOSOverride.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmPOSOverride.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmReconcileCashRegister.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmReconcileCashRegister.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\modPOSStart.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\modPOSStart.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\POSPrint.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\POSPrint.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\rptFutureOrderList.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\rptFutureOrderList.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\rptLateTables.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\rptLateTables.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\rptOverridesList.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\rptOverridesList.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\rptProductPerformance.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\rptProductPerformance.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\rptQBPayrollReport.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\rptQBPayrollReport.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\rptQBRevenueReport.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\rptQBRevenueReport.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\rptQBSalesReport.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\rptQBSalesReport.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\rptSalesSummary.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\rptSalesSummary.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\rptWaiterPerformance.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\rptWaiterPerformance.vb">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmCashRegisterCount.resx" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmCashRegisterCount.resx">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmClock.resx" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmClock.resx">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmEditCRTxn.resx" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmEditCRTxn.resx">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmEditPaymentPr.resx" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmEditPaymentPr.resx">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmEditRetailOrder.resx" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmEditRetailOrder.resx">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmFGReportViewer.resx" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmFGReportViewer.resx">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmPoleDisplay.resx" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmPoleDisplay.resx">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmPOSDesktop.resx" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmPOSDesktop.resx">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmPOSOverride.resx" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmPOSOverride.resx">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\frmReconcileCashRegister.resx" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\frmReconcileCashRegister.resx">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\licenses.licx" Description="File successfully backed up as Z:\POS2006\Backup\Backup\UIPr\licenses.licx">
+</Event><Event ErrorLevel="1" Project="UIPr" Source="UIPr\UIPr.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\UIPr.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UIPr" Source="UIPr\UIPr.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\BOPr.vbproj" Description="Project file successfully backed up as Z:\POS2006\Backup\Backup\BOPr\BOPr.vbproj">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\BOPr.vbproj.user" Description="Project user file successfully backed up as Z:\POS2006\Backup\Backup\BOPr\BOPr.vbproj.user">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\AssemblyInfo.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Clock.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Clock.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Clocks.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Clocks.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\CRBalance.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\CRBalance.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\CRBalances.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\CRBalances.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\CRTxn.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\CRTxn.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\CRTxns.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\CRTxns.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Customer.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Customer.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Customers.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Customers.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\DataAccess.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\DataAccess.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\DTable.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\DTable.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\DTables.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\DTables.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Employee.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Employee.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Employees.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Employees.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Menu.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Menu.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\MenuItem.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\MenuItem.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\MenuItems.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\MenuItems.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Menus.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Menus.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\MoneyCount.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\MoneyCount.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\MoneyCounts.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\MoneyCounts.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Order.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Order.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\OrderItem.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\OrderItem.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\OrderItems.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\OrderItems.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Orders.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Orders.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Override.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Override.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\OverridesCol.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\OverridesCol.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Payment.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Payment.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Payments.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Payments.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\POSBO.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\POSBO.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\POSBOs.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\POSBOs.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\PosDoc.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\PosDoc.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Product.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Product.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\ProductCategories.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\ProductCategories.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\ProductCategory.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\ProductCategory.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\ProductGroup.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\ProductGroup.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Products.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Products.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\SaleDay.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\SaleDay.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\SaleDays.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\SaleDays.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\SaleDaySession.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\SaleDaySession.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\SaleDaySessions.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\SaleDaySessions.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Session.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Session.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Sessions.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Sessions.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\Thr.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\Thr.vb">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\THrs.vb" Description="File successfully backed up as Z:\POS2006\Backup\Backup\BOPr\THrs.vb">
+</Event><Event ErrorLevel="1" Project="BOPr" Source="BOPr\BOPr.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="BOPr" Source="BOPr\BOPr.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BOPr" Source="BOPr\BOPr.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="POS2006.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="POS2006.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UIPr" Source="UIPr\UIPr.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="BOPr" Source="BOPr\SaleDay.vb" Description="Converted">
+</Event></UpgradeLog>
